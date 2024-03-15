@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1092</width>
+    <height>701</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="table_with_values_array">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>256</width>
+      <height>481</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spin_row_value_tables">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>231</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>1000000</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="press_button_min_value">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>80</y>
+      <width>191</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Минимальное значение</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="press_vutton_max_value">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>140</y>
+      <width>191</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Максимальное значение</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="press_button_arithmetic_mean">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>110</y>
+      <width>391</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Среднее арифмитическое арифмитическое массива</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="press_button_hairbrush">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>180</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Расческа</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="press_button_gnome">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>210</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Гномья</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="press_button_bubble">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>240</y>
+      <width>121</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Пузырьковая</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="press_button_monkey">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>270</y>
+      <width>121</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Обезьянья</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="press_button_fast">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>300</y>
+      <width>121</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Быстрая</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_of_search">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>340</y>
+      <width>113</width>
+      <height>25</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="press_button_search">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>380</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Поиск</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_meaning_number_of_occurrences">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>430</y>
+      <width>141</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Кол-во вхождений:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_meaning_answer_of_number_of_occurences">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>430</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ответ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_line_numbers">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>290</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Номера строк:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="press_button_rundom">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>40</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Рандом</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_min_answer">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>180</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ответ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_meaning_min">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>180</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Мин:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_meaning_mean">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>200</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сред:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_mean_answer">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>200</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ответ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_meaning_max">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>220</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Макс:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_max_answer">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>220</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ответ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="press_button_delete_dublicates">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>490</y>
+      <width>161</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удаление дубликатов</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_const">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>60</y>
+      <width>161</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ввести во все ячейки</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_const">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="table_count">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>310</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_mening_perimetr">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>180</y>
+      <width>81</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Периметр:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_meaning_square">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>210</y>
+      <width>81</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Площадь:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_answer_perimeter">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>180</y>
+      <width>101</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ответ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_answer_square">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>210</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ответ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_calculate">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>240</y>
+      <width>121</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Посчитать</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="button_work_with_geom">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>70</y>
+      <width>201</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>геометрический мод</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="button_work_with_dinamic_array">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>40</y>
+      <width>281</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>динамический мод</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_mean_mode_chose">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>20</y>
+      <width>131</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбор мода</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_rare_value">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>530</y>
+      <width>201</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Найти самое редкое число</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_meaning_rare_value">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>530</y>
+      <width>571</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>число</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1092</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
